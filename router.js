@@ -1,6 +1,7 @@
 import { Router } from 'https://deno.land/x/oak/mod.ts';
 
 import getTodos from './controllers/todos/get.js';
+import postTodos from './controllers/todos/post.js';
 
 const router = new Router();
 
@@ -9,5 +10,6 @@ router.get('/', ({ response }) => {
 });
 
 router.get('/todos', getTodos);
+router.post('/todos', postTodos);
 
 export default router;
