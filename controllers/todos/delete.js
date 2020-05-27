@@ -15,7 +15,7 @@ export default async ({ response, params }) => {
     await Deno.writeFile(FILE_PATH, encoder.encode(JSON.stringify(updatedTodos)));
 
     response.status = 200;
-    response.body = { status: 'success', todos };
+    response.body = { status: 'success', updatedTodos };
   } catch (error) {
     response.status = 500;
     response.body = { status: 'failed', error };
