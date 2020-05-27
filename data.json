@@ -1,6 +1,22 @@
 [
-  { "id": 0, "title": "Work out", "completed": false },
-  { "id": 1, "title": "Learn Deno", "completed": true },
-  { "id": 2, "title": "Clean Room", "completed": true },
-  { "id": 3, "title": "Michael", "completed": false }
+  {
+    "id": 0,
+    "title": "Work out",
+    "completed": false
+  },
+  {
+    "id": 1,
+    "title": "Learn Deno",
+    "completed": true
+  },
+  {
+    "id": 2,
+    "title": "Clean Room",
+    "completed": true
+  },
+  {
+    "id": 3,
+    "title": "Michael",
+    "completed": false
+  }
 ]
